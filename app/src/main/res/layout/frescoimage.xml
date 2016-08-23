@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lib.lhh.fiv.library.FrescoZoomImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:layout_width="40px"
+    android:layout_height="40px"
+    android:layout_marginTop="20px"
+    android:layout_marginLeft="20px"
+    android:layout_gravity="center"
+    fresco:actualImageScaleType="fitCenter" />
+

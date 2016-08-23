@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dele"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:text="超实惠"
+            android:textColor="#FF0000"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#eee"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="320px"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_offer2_title1"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:gravity="center_vertical"
+                android:paddingLeft="12dp"
+                android:text="智能云电视"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_offer2_des1"
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:gravity="center_vertical"
+                android:paddingLeft="12dp"
+                android:text="生活轻享受"
+                android:textSize="16sp"/>
+
+            <ImageView
+                android:id="@+id/iv_offer2_pic1"
+                android:layout_width="match_parent"
+                android:layout_height="200px"
+                android:src="@drawable/sample2"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#eee"
+            />
+
+        <LinearLayout
+            android:layout_width="400px"
+            android:layout_height="300px"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="400px"
+                android:layout_height="150px">
+
+                <LinearLayout
+                    android:layout_width="200px"
+                    android:layout_height="150px"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_offer2_title2"
+                        android:layout_width="match_parent"
+                        android:layout_height="75px"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="12dp"
+                        android:text="经典VCR"
+                        android:textColor="#000000"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_offer2_des2"
+                        android:layout_width="match_parent"
+                        android:layout_height="75px"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="12dp"
+                        android:text="经典VCR"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/iv_offer2_pic2"
+                    android:src="@drawable/sample2"
+                    android:layout_width="200px"
+                    android:layout_height="150px"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#eee"
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="400px"
+                android:layout_height="150px">
+
+                <LinearLayout
+                    android:layout_width="200px"
+                    android:layout_height="150px"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_offer2_title3"
+                        android:layout_width="match_parent"
+                        android:layout_height="75px"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="12dp"
+                        android:text="经典VCR"
+                        android:textColor="#000000"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_offer2_des3"
+                        android:layout_width="match_parent"
+                        android:layout_height="75px"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="12dp"
+                        android:text="经典VCR"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/iv_offer2_pic3"
+                    android:src="@drawable/sample2"
+                    android:layout_width="200px"
+                    android:layout_height="150px"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#eee"
+        />
+    <LinearLayout
+        android:background="#F3F3F3"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <View
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="1px"
+            android:background="#eee"
+            />
+        <ImageView
+            android:layout_weight="0.4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dele"/>
+
+        <TextView
+            android:layout_weight="1.6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:text="猜你喜欢"
+            android:textColor="#E67413"
+            android:textSize="20sp"/>
+        <View
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="1px"
+            android:background="#eee"
+            />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:background="#F3F3F3"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_view">
+
+    </android.support.v7.widget.RecyclerView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="120px"/>
+</LinearLayout>
