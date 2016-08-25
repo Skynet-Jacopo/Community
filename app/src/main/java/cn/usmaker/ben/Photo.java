@@ -1,4 +1,4 @@
-package cn.usmaker.community;
+package cn.usmaker.ben;
 
 import java.io.Serializable;
 

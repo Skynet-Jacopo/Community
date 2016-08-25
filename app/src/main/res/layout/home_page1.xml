@@ -15,24 +15,26 @@
             android:orientation="vertical">
 
             <TextView
+                android:textStyle="bold"
                 android:id="@+id/tv_title1"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="40px"
                 android:layout_width="match_parent"
-                android:layout_height="50px"
+                android:layout_height="wrap_content"
                 android:gravity="center_vertical"
-                android:paddingLeft="12dp"
+                android:paddingLeft="30px"
                 android:text="张开嘴还要迈开腿"
                 android:textColor="#E67413"
-                android:textSize="16sp"/>
+                android:textSize="34px"/>
 
             <TextView
                 android:id="@+id/tv_des1"
                 android:layout_width="match_parent"
                 android:layout_height="50px"
                 android:gravity="center_vertical"
-                android:paddingLeft="12dp"
+                android:paddingLeft="30px"
                 android:text="胖子,夏天来了"
-                android:textSize="15sp"/>
+                android:textColor="#666"
+                android:textSize="24px"/>
 
             <ImageView
                 android:id="@+id/iv_pic1"
@@ -69,17 +71,19 @@
                         android:gravity="center_vertical"
                         android:paddingLeft="12dp"
                         android:text="痘痘肌"
+                        android:textStyle="bold"
                         android:textColor="#6AC5B6"
-                        android:textSize="16sp"/>
+                        android:textSize="34px"/>
 
                     <TextView
                         android:id="@+id/tv_des2"
                         android:layout_width="match_parent"
                         android:layout_height="75px"
-                        android:gravity="center_vertical"
+                        android:gravity="top"
                         android:paddingLeft="12dp"
                         android:text="洗脸有讲究"
-                        android:textSize="15sp"/>
+                        android:textColor="#666"
+                        android:textSize="24px"/>
                 </LinearLayout>
                 <ImageView
                     android:id="@+id/iv_pic2"
@@ -111,17 +115,18 @@
                         android:gravity="center_vertical"
                         android:paddingLeft="12dp"
                         android:text="旅行不慌"
-                        android:textColor="#6AC5B6"
-                        android:textSize="16sp"/>
+                        android:textColor="#64baed"
+                        android:textSize="34px"/>
 
                     <TextView
                         android:id="@+id/tv_des3"
                         android:layout_width="match_parent"
                         android:layout_height="75px"
-                        android:gravity="center_vertical"
+                        android:gravity="top"
                         android:paddingLeft="12dp"
                         android:text="随身药品大搜罗"
-                        android:textSize="16sp"/>
+                        android:textColor="#666"
+                        android:textSize="24px"/>
                 </LinearLayout>
                 <ImageView
                     android:id="@+id/iv_pic3"
@@ -146,16 +151,17 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/dele"/>
+            android:src="@drawable/iconfont_tagfill"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="8dp"
+            android:layout_marginLeft="12px"
             android:text="超实惠"
-            android:textColor="#FF0000"
-            android:textSize="20sp"/>
+            android:textStyle="bold"
+            android:textColor="#ff4f64"
+            android:textSize="30px"/>
     </LinearLayout>
     <View
         android:layout_width="match_parent"
@@ -165,7 +171,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="300px"
+        android:layout_height="270px"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -178,22 +184,25 @@
                 android:paddingLeft="12dp"
                 android:gravity="center_vertical"
                 android:text="电器"
-                android:textColor="#ff0000"
-                android:textSize="16sp"
+                android:textColor="#ff4f64"
+                android:textSize="24px"
                 android:layout_width="180px"
-                android:layout_height="50px"/>
+                android:layout_height="wrap_content"/>
             <TextView
+                android:layout_marginTop="12px"
                 android:id="@+id/tv_affordable_des1"
                 android:paddingLeft="12dp"
                 android:gravity="center_vertical"
                 android:text="每日抢返现"
+                android:textSize="24px"
+                android:textColor="#666"
                 android:layout_width="180px"
-                android:layout_height="50px"/>
+                android:layout_height="wrap_content"/>
 
             <ImageView
                 android:id="@+id/iv_affordable_pic1"
                 android:layout_width="180px"
-                android:layout_height="200px"
+                android:layout_height="wrap_content"
                 android:src="@drawable/sample3"/>
         </LinearLayout>
         <View
@@ -211,22 +220,25 @@
                 android:paddingLeft="12dp"
                 android:gravity="center_vertical"
                 android:text="服装"
-                android:textColor="#ff0000"
-                android:textSize="16sp"
+                android:textColor="#ff4f64"
+                android:textSize="24px"
                 android:layout_width="180px"
-                android:layout_height="50px"/>
+                android:layout_height="wrap_content"/>
             <TextView
+                android:layout_marginTop="12px"
+                android:textSize="24px"
+                android:textColor="#666"
                 android:id="@+id/tv_affordable_des2"
                 android:paddingLeft="12dp"
                 android:gravity="center_vertical"
                 android:text="专柜现场"
                 android:layout_width="180px"
-                android:layout_height="50px"/>
+                android:layout_height="wrap_content"/>
 
             <ImageView
                 android:id="@+id/iv_affordable_pic2"
                 android:layout_width="180px"
-                android:layout_height="200px"
+                android:layout_height="wrap_content"
                 android:src="@drawable/sample3"/>
         </LinearLayout>
         <View
@@ -244,22 +256,25 @@
                 android:paddingLeft="12dp"
                 android:gravity="center_vertical"
                 android:text="鞋包"
-                android:textColor="#ff0000"
-                android:textSize="16sp"
+                android:textColor="#ff4f64"
+                android:textSize="24px"
                 android:layout_width="180px"
-                android:layout_height="50px"/>
+                android:layout_height="wrap_content"/>
             <TextView
+                android:layout_marginTop="12px"
+                android:textSize="24px"
+                android:textColor="#666"
                 android:id="@+id/tv_affordable_des3"
                 android:paddingLeft="12dp"
                 android:gravity="center_vertical"
                 android:text="劲爆折扣"
                 android:layout_width="180px"
-                android:layout_height="50px"/>
+                android:layout_height="wrap_content"/>
 
             <ImageView
                 android:id="@+id/iv_affordable_pic3"
                 android:layout_width="180px"
-                android:layout_height="200px"
+                android:layout_height="wrap_content"
                 android:src="@drawable/sample3"/>
         </LinearLayout>
         <View
@@ -277,22 +292,25 @@
                 android:paddingLeft="12dp"
                 android:gravity="center_vertical"
                 android:text="家居生活"
-                android:textColor="#ff0000"
-                android:textSize="16sp"
+                android:textColor="#ff4f64"
+                android:textSize="24px"
                 android:layout_width="180px"
-                android:layout_height="50px"/>
+                android:layout_height="wrap_content"/>
             <TextView
+                android:layout_marginTop="12px"
+                android:textSize="24px"
+                android:textColor="#666"
                 android:id="@+id/tv_affordable_des4"
                 android:paddingLeft="12dp"
                 android:gravity="center_vertical"
                 android:text="精致生活"
                 android:layout_width="180px"
-                android:layout_height="50px"/>
+                android:layout_height="wrap_content"/>
 
             <ImageView
                 android:id="@+id/iv_affordable_pic4"
                 android:layout_width="180px"
-                android:layout_height="200px"
+                android:layout_height="wrap_content"
                 android:src="@drawable/sample3"/>
         </LinearLayout>
 
@@ -310,16 +328,16 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/dele"/>
+            android:src="@drawable/iconfont_likefill"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="8dp"
+            android:layout_marginLeft="12px"
             android:text="活动名称"
             android:textColor="#E67413"
-            android:textSize="20sp"/>
+            android:textSize="30px"/>
     </LinearLayout>
     <View
         android:layout_width="match_parent"
@@ -333,31 +351,34 @@
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="320px"
+            android:layout_width="350px"
             android:layout_height="match_parent">
             
             <TextView
                 android:id="@+id/tv_offer1_title1"
-                android:paddingLeft="12dp"
                 android:gravity="center_vertical"
-                android:textSize="16sp"
-                android:textColor="#000000"
+                android:layout_marginTop="20px"
+                android:paddingLeft="40px"
+                android:textSize="26px"
+                android:textColor="#333"
                 android:text="智能云电视"
                 android:layout_width="match_parent"
-                android:layout_height="50px"/>
+                android:layout_height="wrap_content"/>
             <TextView
                 android:id="@+id/tv_offer1_des1"
-                android:paddingLeft="12dp"
                 android:gravity="center_vertical"
-                android:textSize="16sp"
+                android:layout_marginTop="24px"
+                android:paddingLeft="40px"
+                android:textSize="22px"
+                android:textColor="#999"
                 android:text="生活轻享受"
                 android:layout_width="match_parent"
-                android:layout_height="50px"/>
+                android:layout_height="wrap_content"/>
             <ImageView
                 android:id="@+id/iv_offer1_pic1"
                 android:src="@drawable/sample2"
                 android:layout_width="match_parent"
-                android:layout_height="200px"/>
+                android:layout_height="wrap_content"/>
         </LinearLayout>
         <View
             android:layout_width="1px"
@@ -374,13 +395,14 @@
                 android:layout_height="150px">
                 <TextView
                     android:id="@+id/tv_offer1_title2"
-                    android:paddingLeft="12dp"
                     android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textColor="#000000"
+                    android:paddingLeft="30px"
+                    android:layout_marginTop="20px"
+                    android:textSize="26px"
+                    android:textColor="#333"
                     android:text="经典VCR"
                     android:layout_width="match_parent"
-                    android:layout_height="50px"/>
+                    android:layout_height="wrap_content"/>
                 <ImageView
                     android:id="@+id/iv_offer1_pic2"
                     android:src="@drawable/sample2"
@@ -398,13 +420,14 @@
                 android:layout_height="150px">
                 <TextView
                     android:id="@+id/tv_offer1_title4"
-                    android:paddingLeft="12dp"
                     android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textColor="#000000"
+                    android:paddingLeft="30px"
+                    android:layout_marginTop="20px"
+                    android:textSize="26px"
+                    android:textColor="#333"
                     android:text="经典VCR"
                     android:layout_width="match_parent"
-                    android:layout_height="50px"/>
+                    android:layout_height="wrap_content"/>
                 <ImageView
                     android:id="@+id/iv_offer1_pic4"
                     android:src="@drawable/sample2"
@@ -427,13 +450,14 @@
                 android:layout_height="150px">
                 <TextView
                     android:id="@+id/tv_offer1_title3"
-                    android:paddingLeft="12dp"
                     android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textColor="#000000"
+                    android:paddingLeft="30px"
+                    android:layout_marginTop="20px"
+                    android:textSize="26px"
+                    android:textColor="#333"
                     android:text="经典VCR"
                     android:layout_width="match_parent"
-                    android:layout_height="50px"/>
+                    android:layout_height="wrap_content"/>
                 <ImageView
                     android:id="@+id/iv_offer1_pic3"
                     android:src="@drawable/sample2"
@@ -451,13 +475,14 @@
                 android:layout_height="150px">
                 <TextView
                     android:id="@+id/tv_offer1_title5"
-                    android:paddingLeft="12dp"
                     android:gravity="center_vertical"
-                    android:textSize="16sp"
-                    android:textColor="#000000"
+                    android:paddingLeft="30px"
+                    android:layout_marginTop="20px"
+                    android:textSize="26px"
+                    android:textColor="#333"
                     android:text="经典VCR"
                     android:layout_width="match_parent"
-                    android:layout_height="50px"/>
+                    android:layout_height="wrap_content"/>
                 <ImageView
                     android:id="@+id/iv_offer1_pic5"
                     android:src="@drawable/sample2"

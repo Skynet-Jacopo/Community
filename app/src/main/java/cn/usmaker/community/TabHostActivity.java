@@ -1,11 +1,14 @@
 package cn.usmaker.community;
 
+import android.annotation.TargetApi;
 import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentTabHost;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TabHost;
@@ -26,13 +29,13 @@ import cn.usmaker.community.fragment.ThirdFragment;
 public class TabHostActivity extends AutoLayoutActivity {
 
     @Bind(R.id.fl_content)
-    FrameLayout          mFlContent;
+    FrameLayout     mFlContent;
     @Bind(R.id.fth_tab_host)
-    FragmentTabHost      mFragmentTabHost;
+    FragmentTabHost mFragmentTabHost;
     @BindColor(R.color.red)
-    int colorRed;
+    int             colorRed;
     @BindColor(R.color.darkgrey)
-    int colorDarkGrey;
+    int             colorDarkGrey;
     /**
      * 布局填充器
      */
@@ -46,23 +49,29 @@ public class TabHostActivity extends AutoLayoutActivity {
     /**
      * 存放图片数组
      */
-    private int    mImageArray[]    = {R.drawable.selector_business, R.drawable.selector_business,
-            R.drawable.selector_business, R.drawable.selector_business};
+    private int    mImageArray[]    = {R.drawable.selector_business, R.drawable.selector_community,
+            R.drawable.selector_shopping_cart, R.drawable.selector_mine};
     /**
      * 选项卡文字
      */
     private String mTextArray[]     = {"首页", "社区", "购物车", "我的"};
 
-    private Context context;
-    private TextView mTextView;
+    private Context       context;
+    private TextView      mTextView;
     private ActivityUtils mActivityUtils;
 
+    @TargetApi(Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab_host);
         mActivityUtils = new ActivityUtils(this);
         context = getBaseContext();
+        //透明状态栏
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        //透明导航栏
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+
     }
 
     @Override

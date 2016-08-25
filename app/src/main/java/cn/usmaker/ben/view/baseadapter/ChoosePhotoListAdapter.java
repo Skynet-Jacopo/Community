@@ -26,7 +26,7 @@ import android.widget.BaseAdapter;
 import java.util.List;
 
 import cn.finalteam.toolsfinal.DeviceUtils;
-import cn.usmaker.community.Photo;
+import cn.usmaker.ben.Photo;
 import cn.usmaker.community.R;
 import lib.lhh.fiv.library.FrescoZoomImageView;
 

@@ -10,26 +10,23 @@
 
     <TextView
         android:id="@+id/tv_day_unit"
-        style="@style/RushBuyCountDownTimerViewStyle"
-        android:layout_marginLeft="1dp" />
+        style="@style/RushBuyCountDownTimerViewStyle"/>
 
     <TextView
         android:layout_margin="3dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:gravity="center"
         android:text="天"
-        android:textColor="#4F4242"
-        android:textSize="18sp" />
+        android:textColor="#666"
+        android:textSize="22px" />
     <TextView
         android:id="@+id/tv_hour_decade"
         style="@style/RushBuyCountDownTimerViewStyle" />
 
     <TextView
         android:id="@+id/tv_hour_unit"
-        style="@style/RushBuyCountDownTimerViewStyle"
-        android:layout_marginLeft="1dp" />
+        style="@style/RushBuyCountDownTimerViewStyle"/>
 
     <TextView
         android:layout_margin="3dp"
@@ -37,8 +34,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="时"
-        android:textColor="#4F4242"
-        android:textSize="18sp" />
+        android:textColor="#666"
+        android:textSize="22px"  />
 
     <TextView
         android:id="@+id/tv_min_decade"
@@ -46,8 +43,7 @@
 
     <TextView
         android:id="@+id/tv_min_unit"
-        style="@style/RushBuyCountDownTimerViewStyle"
-        android:layout_marginLeft="1dp" />
+        style="@style/RushBuyCountDownTimerViewStyle"/>
 
     <TextView
         android:layout_margin="3dp"
@@ -55,8 +51,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="分"
-        android:textColor="#4F4242"
-        android:textSize="18sp" />
+        android:textColor="#666"
+        android:textSize="22px"  />
 
     <TextView
         android:id="@+id/tv_sec_decade"
@@ -64,15 +60,14 @@
 
     <TextView
         android:id="@+id/tv_sec_unit"
-        style="@style/RushBuyCountDownTimerViewStyle"
-        android:layout_marginLeft="1dp" />
+        style="@style/RushBuyCountDownTimerViewStyle"/>
     <TextView
         android:layout_margin="3dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="秒"
-        android:textColor="#4F4242"
-        android:textSize="18sp" />
+        android:textColor="#666"
+        android:textSize="22px"  />
 
 </LinearLayout>

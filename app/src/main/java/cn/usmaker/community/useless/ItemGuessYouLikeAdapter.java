@@ -1,4 +1,4 @@
-package cn.usmaker.community;
+package cn.usmaker.community.useless;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,6 +8,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
+
+import cn.usmaker.community.R;
 
 /**
  * Created by liuqun on 8/22/2016.

@@ -1,5 +1,6 @@
-package cn.usmaker.community;
+package cn.usmaker.community.useless;
 
+import android.graphics.Paint;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
+
+import cn.usmaker.community.R;
 
 /**
  * Created by liuqun on 7/29/2016.
@@ -45,6 +48,7 @@ public class ItemHotSaleAdapter extends RecyclerView.Adapter<ItemHotSaleAdapter.
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, int position) {
         viewHolder.tvNewPrice.setText("¥"+datas.get(position));
+        viewHolder.tvOldPrice.getPaint().setFlags(Paint. STRIKE_THRU_TEXT_FLAG); //中划线
     }
 
     //获取数据的数量
